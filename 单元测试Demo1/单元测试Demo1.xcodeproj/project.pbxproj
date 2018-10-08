@@ -21,7 +21,7 @@
 		44F49ED7216B07AC007BA33C /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F49ED5216B07AC007BA33C /* Manager.m */; };
 		44F49EDA216B0D47007BA33C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F49ED9216B0D47007BA33C /* Person.m */; };
 		44F49EDD216B0F33007BA33C /* KTCBaseTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F49EDC216B0F33007BA33C /* KTCBaseTestCase.m */; };
-		7D0742801770D3B479CC0A5B /* libPods-单元测试Demo1Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BCDE09F2833CA97431D6A32 /* libPods-单元测试Demo1Tests.a */; };
+		44F49EE0216B46E3007BA33C /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F49EDF216B46E3007BA33C /* libOCMock.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +42,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		339BB69B0474842DDBDEBF69 /* libPods-单元测试Demo1-单元测试Demo1Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-单元测试Demo1-单元测试Demo1Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		432A0024118CF2DE2CA3A55B /* Pods-单元测试Demo1-单元测试Demo1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-单元测试Demo1-单元测试Demo1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-单元测试Demo1-单元测试Demo1Tests/Pods-单元测试Demo1-单元测试Demo1Tests.release.xcconfig"; sourceTree = "<group>"; };
 		44F49E88216AF357007BA33C /* 单元测试Demo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "单元测试Demo1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44F49E8B216AF357007BA33C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44F49E8C216AF357007BA33C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,10 +53,10 @@
 		44F49E99216AF358007BA33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44F49E9A216AF358007BA33C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44F49EA0216AF359007BA33C /* 单元测试Demo1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "单元测试Demo1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44F49EA4216AF359007BA33C /* ____Demo1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ____Demo1Tests.m; sourceTree = "<group>"; };
+		44F49EA4216AF359007BA33C /* ____Demo1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Demo1Tests.m"; sourceTree = "<group>"; };
 		44F49EA6216AF359007BA33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44F49EAB216AF359007BA33C /* 单元测试Demo1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "单元测试Demo1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44F49EAF216AF359007BA33C /* ____Demo1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ____Demo1UITests.m; sourceTree = "<group>"; };
+		44F49EAF216AF359007BA33C /* ____Demo1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Demo1UITests.m"; sourceTree = "<group>"; };
 		44F49EB1216AF359007BA33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44F49ECC216B07A5007BA33C /* IDCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDCardView.m; sourceTree = "<group>"; };
 		44F49ECD216B07A5007BA33C /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
@@ -72,11 +70,9 @@
 		44F49ED9216B0D47007BA33C /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		44F49EDB216B0F33007BA33C /* KTCBaseTestCase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTCBaseTestCase.h; sourceTree = "<group>"; };
 		44F49EDC216B0F33007BA33C /* KTCBaseTestCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTCBaseTestCase.m; sourceTree = "<group>"; };
+		44F49EDF216B46E3007BA33C /* libOCMock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libOCMock.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6466C934A534EEB414A75471 /* Pods-单元测试Demo1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-单元测试Demo1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-单元测试Demo1Tests/Pods-单元测试Demo1Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7BCDE09F2833CA97431D6A32 /* libPods-单元测试Demo1Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-单元测试Demo1Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		951DD2125A30678A24AFB0D4 /* Pods-单元测试Demo1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-单元测试Demo1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-单元测试Demo1Tests/Pods-单元测试Demo1Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BF379C6AD2DE80CCD9B83EDF /* libPods-单元测试Demo1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-单元测试Demo1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7FBC9902BA7067AB9C6BAEA /* Pods-单元测试Demo1-单元测试Demo1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-单元测试Demo1-单元测试Demo1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-单元测试Demo1-单元测试Demo1Tests/Pods-单元测试Demo1-单元测试Demo1Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D0742801770D3B479CC0A5B /* libPods-单元测试Demo1Tests.a in Frameworks */,
+				44F49EE0216B46E3007BA33C /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,9 +104,7 @@
 		444C797D6BAA78802A574D2A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7BCDE09F2833CA97431D6A32 /* libPods-单元测试Demo1Tests.a */,
-				BF379C6AD2DE80CCD9B83EDF /* libPods-单元测试Demo1.a */,
-				339BB69B0474842DDBDEBF69 /* libPods-单元测试Demo1-单元测试Demo1Tests.a */,
+				44F49EDF216B46E3007BA33C /* libOCMock.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -188,8 +182,6 @@
 			children = (
 				951DD2125A30678A24AFB0D4 /* Pods-单元测试Demo1Tests.debug.xcconfig */,
 				6466C934A534EEB414A75471 /* Pods-单元测试Demo1Tests.release.xcconfig */,
-				D7FBC9902BA7067AB9C6BAEA /* Pods-单元测试Demo1-单元测试Demo1Tests.debug.xcconfig */,
-				432A0024118CF2DE2CA3A55B /* Pods-单元测试Demo1-单元测试Demo1Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
