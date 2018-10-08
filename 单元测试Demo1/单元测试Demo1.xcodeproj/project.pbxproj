@@ -21,7 +21,6 @@
 		44F49ED7216B07AC007BA33C /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F49ED5216B07AC007BA33C /* Manager.m */; };
 		44F49EDA216B0D47007BA33C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F49ED9216B0D47007BA33C /* Person.m */; };
 		44F49EDD216B0F33007BA33C /* KTCBaseTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F49EDC216B0F33007BA33C /* KTCBaseTestCase.m */; };
-		44F49EE0216B46E3007BA33C /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F49EDF216B46E3007BA33C /* libOCMock.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,7 +86,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44F49EE0216B46E3007BA33C /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
