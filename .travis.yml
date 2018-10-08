@@ -1,6 +1,6 @@
 language: objective-c
-xcode_project: 单元测试Demo1/单元测试Demo1.xcodeproj 
-xcode_scheme: 单元测试Demo1
+xcode_project: 003---CI/003---CI.xcodeproj 
+xcode_scheme: 003---CI
 osx_image: xcode9.4
 
 script:
