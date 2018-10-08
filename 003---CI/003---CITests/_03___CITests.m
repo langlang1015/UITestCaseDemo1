@@ -24,6 +24,8 @@
     NSLog(@"hello word");
     NSLog(@"hello CI");
     
+    NSLog(@"hello C111I");
+    
     int a = 10;
     int b = 20;
     
