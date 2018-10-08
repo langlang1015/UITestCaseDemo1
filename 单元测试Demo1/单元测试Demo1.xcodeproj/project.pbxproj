@@ -22,7 +22,6 @@
 		44F49EDA216B0D47007BA33C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F49ED9216B0D47007BA33C /* Person.m */; };
 		44F49EDD216B0F33007BA33C /* KTCBaseTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F49EDC216B0F33007BA33C /* KTCBaseTestCase.m */; };
 		7D0742801770D3B479CC0A5B /* libPods-单元测试Demo1Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BCDE09F2833CA97431D6A32 /* libPods-单元测试Demo1Tests.a */; };
-		9366190B7227FD0D4EA08346 /* libPods-单元测试Demo1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF379C6AD2DE80CCD9B83EDF /* libPods-单元测试Demo1.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +42,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		176AD46DD544A814E9A7CBC2 /* Pods-单元测试Demo1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-单元测试Demo1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-单元测试Demo1/Pods-单元测试Demo1.debug.xcconfig"; sourceTree = "<group>"; };
 		339BB69B0474842DDBDEBF69 /* libPods-单元测试Demo1-单元测试Demo1Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-单元测试Demo1-单元测试Demo1Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		432A0024118CF2DE2CA3A55B /* Pods-单元测试Demo1-单元测试Demo1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-单元测试Demo1-单元测试Demo1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-单元测试Demo1-单元测试Demo1Tests/Pods-单元测试Demo1-单元测试Demo1Tests.release.xcconfig"; sourceTree = "<group>"; };
 		44F49E88216AF357007BA33C /* 单元测试Demo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "单元测试Demo1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,10 +55,10 @@
 		44F49E99216AF358007BA33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44F49E9A216AF358007BA33C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44F49EA0216AF359007BA33C /* 单元测试Demo1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "单元测试Demo1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44F49EA4216AF359007BA33C /* ____Demo1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Demo1Tests.m"; sourceTree = "<group>"; };
+		44F49EA4216AF359007BA33C /* ____Demo1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ____Demo1Tests.m; sourceTree = "<group>"; };
 		44F49EA6216AF359007BA33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44F49EAB216AF359007BA33C /* 单元测试Demo1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "单元测试Demo1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44F49EAF216AF359007BA33C /* ____Demo1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Demo1UITests.m"; sourceTree = "<group>"; };
+		44F49EAF216AF359007BA33C /* ____Demo1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ____Demo1UITests.m; sourceTree = "<group>"; };
 		44F49EB1216AF359007BA33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44F49ECC216B07A5007BA33C /* IDCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDCardView.m; sourceTree = "<group>"; };
 		44F49ECD216B07A5007BA33C /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
@@ -77,7 +75,6 @@
 		6466C934A534EEB414A75471 /* Pods-单元测试Demo1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-单元测试Demo1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-单元测试Demo1Tests/Pods-单元测试Demo1Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7BCDE09F2833CA97431D6A32 /* libPods-单元测试Demo1Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-单元测试Demo1Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		951DD2125A30678A24AFB0D4 /* Pods-单元测试Demo1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-单元测试Demo1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-单元测试Demo1Tests/Pods-单元测试Demo1Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		95849CAFEFE2BC6BB5A39281 /* Pods-单元测试Demo1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-单元测试Demo1.release.xcconfig"; path = "Pods/Target Support Files/Pods-单元测试Demo1/Pods-单元测试Demo1.release.xcconfig"; sourceTree = "<group>"; };
 		BF379C6AD2DE80CCD9B83EDF /* libPods-单元测试Demo1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-单元测试Demo1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FBC9902BA7067AB9C6BAEA /* Pods-单元测试Demo1-单元测试Demo1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-单元测试Demo1-单元测试Demo1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-单元测试Demo1-单元测试Demo1Tests/Pods-单元测试Demo1-单元测试Demo1Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,7 +84,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9366190B7227FD0D4EA08346 /* libPods-单元测试Demo1.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,8 +188,6 @@
 			children = (
 				951DD2125A30678A24AFB0D4 /* Pods-单元测试Demo1Tests.debug.xcconfig */,
 				6466C934A534EEB414A75471 /* Pods-单元测试Demo1Tests.release.xcconfig */,
-				176AD46DD544A814E9A7CBC2 /* Pods-单元测试Demo1.debug.xcconfig */,
-				95849CAFEFE2BC6BB5A39281 /* Pods-单元测试Demo1.release.xcconfig */,
 				D7FBC9902BA7067AB9C6BAEA /* Pods-单元测试Demo1-单元测试Demo1Tests.debug.xcconfig */,
 				432A0024118CF2DE2CA3A55B /* Pods-单元测试Demo1-单元测试Demo1Tests.release.xcconfig */,
 			);
@@ -207,7 +201,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44F49EB4216AF359007BA33C /* Build configuration list for PBXNativeTarget "单元测试Demo1" */;
 			buildPhases = (
-				CADAF59110885C491C0FB764 /* [CP] Check Pods Manifest.lock */,
 				44F49E84216AF357007BA33C /* Sources */,
 				44F49E85216AF357007BA33C /* Frameworks */,
 				44F49E86216AF357007BA33C /* Resources */,
@@ -340,24 +333,6 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-单元测试Demo1Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CADAF59110885C491C0FB764 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-单元测试Demo1-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -548,7 +523,6 @@
 		};
 		44F49EB5216AF359007BA33C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 176AD46DD544A814E9A7CBC2 /* Pods-单元测试Demo1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -566,7 +540,6 @@
 		};
 		44F49EB6216AF359007BA33C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95849CAFEFE2BC6BB5A39281 /* Pods-单元测试Demo1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
