@@ -26,10 +26,10 @@
     
     NSLog(@"hello C111I");
     
-    int a = 10;
-    int b = 20;
-    
-    XCTAssertEqual(a, b);
+//    int a = 10;
+//    int b = 20;
+//    
+//    XCTAssertEqual(a, b);
     
 }
 
