@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import <Masonry.h>
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic, strong) NSMutableArray *dataArray;
 

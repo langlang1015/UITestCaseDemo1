@@ -1,10 +1,9 @@
 target '单元测试Demo1' do
-    pod 'Masonry', '~> 1.1.0'
+    #pod 'Masonry', '~> 1.1.0'
     pod 'OCMock', '~> 3.4.2'
 end
 
 target '单元测试Demo1Tests' do
-    pod 'OCMock', '~> 3.4.2'
     pod 'OCMock', '~> 3.4.2'
 end
 
