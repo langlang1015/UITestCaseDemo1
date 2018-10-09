@@ -10,13 +10,22 @@ env:
      - WORKSPACE_NAME=`sudo find ./Example -name "*.xcworkspace" -maxdepth 1 |while read var; do echo $(basename $var .xcworkspace); done`
     # the file named '*.xcworkspace' should be created by 'pod lib create...'
 
+
+before_install:
+  - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+  - gem install cocoapods --pre --no-rdoc --no-ri --no-document --quiet
+  #- gem install slather --pre --no-rdoc --no-ri --no-document --quiet
+  - pod install --project-directory=单元测试Demo1
+  - rvm use $RVM_RUBY_VERSION
+
 script:
+# - set -o pipefail
 - set -o pipefail
 - echo $WORKSPACE_NAME
 #- xcodebuild test -project "$TRAVIS_XCODE_PROJECT" -scheme "$TRAVIS_XCODE_SCHEME" -destination "name=iPhone 7" 
 # - xcodebuild  test -workspace 单元测试Demo1.xcworkspace -scheme "$TRAVIS_XCODE_SCHEME" -destination "name=iPhone 7" -enableCodeCoverage YES | xcpretty 
-- xcodebuild test -enableCodeCoverage YES -workspace 单元测试/$WORKSPACE_NAME.xcworkspace -scheme "$TRAVIS_XCODE_SCHEME" -destination "name=iPhone 7"  
-# - pod lib lint --allow-warnings --verbose
+- xcodebuild test -enableCodeCoverage YES -workspace 单元测试/单元测试Demo1.xcworkspace -scheme "$TRAVIS_XCODE_SCHEME" -destination "name=iPhone 7"  
+- pod lib lint --allow-warnings --verbose
 
 after_success:
 - bash <(curl -s https://codecov.io/bash)
