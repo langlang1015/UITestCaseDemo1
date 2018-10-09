@@ -25,7 +25,7 @@ script:
 #- xcodebuild test -project "$TRAVIS_XCODE_PROJECT" -scheme "$TRAVIS_XCODE_SCHEME" -destination "name=iPhone 7" 
 # - xcodebuild  test -workspace 单元测试Demo1.xcworkspace -scheme "$TRAVIS_XCODE_SCHEME" -destination "name=iPhone 7" -enableCodeCoverage YES | xcpretty 
 - xcodebuild test -enableCodeCoverage YES -workspace 单元测试/单元测试Demo1.xcworkspace -scheme "$TRAVIS_XCODE_SCHEME" -destination "name=iPhone 7"  
-- pod lib lint --allow-warnings --verbose
+# - pod lib lint --allow-warnings --verbose
 
 after_success:
 - bash <(curl -s https://codecov.io/bash)
