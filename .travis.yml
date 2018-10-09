@@ -3,10 +3,16 @@ xcode_project: 单元测试/单元测试Demo1.xcworkspace
 xcode_scheme: 单元测试Demo1
 osx_image: xcode9.4
 
+env:
+  global:
+    - LANG=en_US.UTF-8
+    - LC_ALL=en_US.UTF-8
+
 script:
 - set -o pipefail
 #- xcodebuild test -project "$TRAVIS_XCODE_PROJECT" -scheme "$TRAVIS_XCODE_SCHEME" -destination "name=iPhone 7" 
-xcodebuild  test -workspace 单元测试Demo1.xcworkspace -scheme "$TRAVIS_XCODE_SCHEME" -destination "platform=iOS simulator,name=iPhone 7,OS=10.3.1" -enableCodeCoverage YES | xcpretty 
+- xcodebuild  test -workspace 单元测试Demo1.xcworkspace -scheme "$TRAVIS_XCODE_SCHEME" -destination "platform=iOS simulator,name=iPhone 7,OS=10.3.1" -enableCodeCoverage YES | xcpretty 
+# - xcodebuild test -enableCodeCoverage YES -workspace Example/$WORKSPACE_NAME.xcworkspace -scheme $WORKSPACE_NAME-Example -destination 'platform=iOS Simulator,OS=latest,name=iPhone 8'  
 - pod lib lint --allow-warnings --verbose
 
 after_success:
