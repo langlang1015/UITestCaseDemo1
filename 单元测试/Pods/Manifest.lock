@@ -1,20 +1,16 @@
 PODS:
-  - Masonry (1.1.0)
   - OCMock (3.4.2)
 
 DEPENDENCIES:
-  - Masonry (~> 1.1.0)
   - OCMock (~> 3.4.2)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - Masonry
     - OCMock
 
 SPEC CHECKSUMS:
-  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   OCMock: ebe9ee1dca7fbed0ff9193ac0b3e2d8862ea56f6
 
-PODFILE CHECKSUM: 8a8ea8a019fcd7d9b6c296762909c63c3d0c32d7
+PODFILE CHECKSUM: fc4b6dca232da050c2ed1eeac942a83cd20f9d3e
 
 COCOAPODS: 1.5.3
